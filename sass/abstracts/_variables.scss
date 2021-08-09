@@ -1,0 +1,24 @@
+// PRIMARY COLORS
+$light-red: hsl(356, 100%, 66%); // CTA TEXT
+$very-light-red: hsl(355, 100%, 74%); //CTA hover background
+$very-dark-blue: hsl(208, 49%, 24%); //Headings
+
+//Neutral
+$white: hsl(0, 0%, 100%); // Text
+$grayish-blue: hsl(240, 2%, 79%); // Footer Text
+$very-grayish-blue: hsl(207, 13%, 34%); // Body Copy
+$very-dark-black-blue: hsl(240, 10%, 16%); // Footer background
+
+
+//Gradient
+    // -- Background gradient - Intro/CTA mobile nav:
+    $very-light-red-b: hsl(13, 100%, 72%);
+    $light-red-b: hsl(353, 100%, 62%);
+
+    // --Background gradient - body:
+    $very-dark-gray-blue: hsl(237, 17%, 21%);
+    $very-dark-desaturated-blue: hsl(237, 23%, 32%);
+
+// Font
+$overpass: "Overpass",Arial, Helvetica, sans-serif;
+$ubuntu: "Ubuntu",Arial, Helvetica, sans-serif;
