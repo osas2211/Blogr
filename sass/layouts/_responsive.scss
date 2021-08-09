@@ -1,27 +1,9 @@
-/*
-@media (max-width: 1200px) {
-    .info-design{
-        .info-design--imgDesktop{
-            overflow: hidden;
-        }
-    }
-}
-*/
 
 @media (max-width: 770px) {
-
     .header{
         background-size: 380vw;
         background-position: center;
         min-height: 75vh;
-
-        &__nav--list, .user{
-            display: none;
-        }
-
-        .hamburger{
-            display: block;
-        }
     }
 
     .info-design{
@@ -47,4 +29,21 @@
             margin-bottom: 4rem;
         }
     }
+}
+
+
+@media (max-width: 600px) {
+    .header{
+        &__nav--list, .user{
+            display: none;
+        }
+
+        .hamburger{
+            display: block;
+        }
+    }
+    .wrap{
+        width: 95%;
+    }
+    
 }

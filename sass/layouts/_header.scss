@@ -30,7 +30,7 @@
                 margin: 1rem;
                 transition: all .5s;
                 &::after{
-                    content: url(/images/icon-arrow-light.svg);
+                    content: url("../images/icon-arrow-light.svg");
                     display: inline-block;
                     margin-left: 0.4rem;
                     transition: .3s;

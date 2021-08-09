@@ -83,8 +83,7 @@ a {
   background-size: 140vw;
   background-position: left;
   border-bottom-left-radius: 80px;
-  font-family: "Ubuntu", Arial, Helvetica, sans-serif;
-  width: 100vw; }
+  font-family: "Ubuntu", Arial, Helvetica, sans-serif; }
   .header .hamburger {
     display: none; }
   .header__logo {
@@ -103,7 +102,7 @@ a {
         margin: 1rem;
         transition: all .5s; }
         .header__nav--list li.nav-item::after {
-          content: url(/images/icon-arrow-light.svg);
+          content: url("../images/icon-arrow-light.svg");
           display: inline-block;
           margin-left: 0.4rem;
           transition: .3s; }
@@ -137,24 +136,11 @@ a {
   .info-design .info-design--imgMobile {
     display: none; }
 
-/*
-@media (max-width: 1200px) {
-    .info-design{
-        .info-design--imgDesktop{
-            overflow: hidden;
-        }
-    }
-}
-*/
 @media (max-width: 770px) {
   .header {
     background-size: 380vw;
     background-position: center;
     min-height: 75vh; }
-    .header__nav--list, .header .user {
-      display: none; }
-    .header .hamburger {
-      display: block; }
   .info-design {
     text-align: center;
     overflow-x: hidden; }
@@ -171,3 +157,11 @@ a {
         width: 100%; }
     .info-design h3 {
       margin-bottom: 4rem; } }
+
+@media (max-width: 600px) {
+  .header__nav--list, .header .user {
+    display: none; }
+  .header .hamburger {
+    display: block; }
+  .wrap {
+    width: 95%; } }
