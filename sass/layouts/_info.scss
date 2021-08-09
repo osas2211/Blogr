@@ -1,0 +1,28 @@
+.info-design{
+    position: relative;
+
+    .info-design--imgDesktop{
+        position: absolute;
+        top: 0;
+        right: -5rem;
+        height: 50rem;
+        
+        img{
+            height: 100%;
+        }
+
+    }
+
+    h3{
+        margin-bottom: 8rem;
+    }
+
+    .info-design--imgMobile{
+        display: none;
+    }
+
+}
+
+body{
+    overflow-x: hidden;
+}

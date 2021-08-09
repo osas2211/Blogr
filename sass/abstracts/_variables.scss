@@ -12,8 +12,8 @@ $very-dark-black-blue: hsl(240, 10%, 16%); // Footer background
 
 //Gradient
     // -- Background gradient - Intro/CTA mobile nav:
-    $very-light-red-b: hsl(13, 100%, 72%);
-    $light-red-b: hsl(353, 100%, 62%);
+    $very-light-red-b: hsla(13, 100%, 72%, 0.85);
+    $light-red-b: hsla(353, 100%, 62%, 0.8);
 
     // --Background gradient - body:
     $very-dark-gray-blue: hsl(237, 17%, 21%);

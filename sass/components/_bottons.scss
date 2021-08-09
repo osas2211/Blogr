@@ -1,0 +1,25 @@
+.btn{
+    background-color: $white;
+    color: $light-red;
+    text-transform: capitalize;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: 500;
+    transition: all .5s;
+
+    &:hover{
+        @include btn-hover-secondary;
+    }
+}
+
+.btn-secondary{
+    @include btn-hover-secondary;
+    background-color: transparent;
+    border: none;
+
+    &:hover{
+        background-color: $white;
+        color: $light-red;
+    }
+}

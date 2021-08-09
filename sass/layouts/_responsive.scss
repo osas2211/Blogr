@@ -1,0 +1,33 @@
+@media (max-width: 770px) {
+
+    .container{
+        width: 95%;
+    }
+    .header{
+        background-size: 380vw;
+        background-position: center;
+        min-height: 75vh;
+
+        &__nav--list, .user{
+            display: none;
+        }
+
+        .hamburger{
+            display: block;
+        }
+    }
+
+    .info-design{
+        text-align: center;
+        .info-design--imgDesktop{
+            display: none;
+        }
+        .info-design--imgMobile{
+            display: block;
+        }
+
+        h3{
+            margin-bottom: 4rem;
+        }
+    }
+}

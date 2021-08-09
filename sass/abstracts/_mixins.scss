@@ -1,0 +1,23 @@
+@mixin reset {
+    margin: 0;
+    padding: 0;
+}
+
+@mixin reset-list {
+    @include reset;
+    list-style: none;
+}
+
+@mixin reset-link {
+    color: $white;
+    text-decoration: none;
+    &:hover{
+        color: $white;
+    }
+}
+
+
+@mixin btn-hover-secondary {
+    color: $white;
+    background-color: $very-light-red-b;
+}

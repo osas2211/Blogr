@@ -1,0 +1,53 @@
+.header{
+    min-height: 70vh;
+    background: linear-gradient(to right, $very-light-red-b, $light-red-b),url(/images/bg-pattern-intro.svg);
+    background-repeat: no-repeat;
+    background-size: 140vw;
+    background-position: left;
+    border-bottom-left-radius: 80px;
+    font-family: $ubuntu;
+    .hamburger{
+        display: none;
+    }
+
+    &__logo{
+        margin-right: 3rem;
+    }
+
+    &__nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+        &--list{
+            @include reset-list;
+            text-transform: capitalize;
+            
+            li.nav-item{
+                display: inline-block;
+                margin: 1rem;
+                transition: all .5s;
+                &::after{
+                    content: url(/images/icon-arrow-light.svg);
+                    display: inline-block;
+                    margin-left: 0.4rem;
+                    transition: .3s;
+                }
+                &:hover > a{
+                    text-decoration:underline;
+                }
+                &:hover::after{
+                    transform: rotate(180deg);
+                }
+
+            }
+        }
+    }
+}
+
+.header--flex{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
