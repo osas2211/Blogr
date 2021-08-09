@@ -1,11 +1,12 @@
 .header{
     min-height: 70vh;
-    background: linear-gradient(to right, $very-light-red-b, $light-red-b),url(/images/bg-pattern-intro.svg);
+    background: linear-gradient(to right, $very-light-red-b, $light-red-b),url("../images/bg-pattern-intro.svg");
     background-repeat: no-repeat;
     background-size: 140vw;
     background-position: left;
     border-bottom-left-radius: 80px;
     font-family: $ubuntu;
+    width: 100%;
     .hamburger{
         display: none;
     }

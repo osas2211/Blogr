@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 a{
     @include reset-link;
 }
