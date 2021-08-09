@@ -118,7 +118,8 @@ a {
   margin-bottom: 6rem; }
 
 .info-design {
-  position: relative; }
+  position: relative;
+  max-width: 100vw; }
   .info-design .info-design--imgDesktop {
     position: absolute;
     top: 0;
