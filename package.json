@@ -1,0 +1,25 @@
+{
+  "name": "blogr-project",
+  "version": "1.0.0",
+  "description": "Blogr Landing Page",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osas2211/Blogr.git"
+  },
+  "keywords": [
+    "Blogr"
+  ],
+  "author": "Osaretin Frank",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osas2211/Blogr/issues"
+  },
+  "homepage": "https://github.com/osas2211/Blogr#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
