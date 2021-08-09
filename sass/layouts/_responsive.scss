@@ -1,8 +1,15 @@
+/*
+@media (max-width: 1200px) {
+    .info-design{
+        .info-design--imgDesktop{
+            overflow: hidden;
+        }
+    }
+}
+*/
+
 @media (max-width: 770px) {
 
-    .container{
-        width: 95%;
-    }
     .header{
         background-size: 380vw;
         background-position: center;
@@ -19,11 +26,21 @@
 
     .info-design{
         text-align: center;
+        overflow-x: hidden;
+        .wrap{
+            margin-left: 0;
+            width: 90%;
+            margin: auto;
+            overflow-x: hidden;
+        }
         .info-design--imgDesktop{
             display: none;
         }
         .info-design--imgMobile{
             display: block;
+            img{
+                width: 100%;
+            }
         }
 
         h3{

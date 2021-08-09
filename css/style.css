@@ -84,7 +84,7 @@ a {
   background-position: left;
   border-bottom-left-radius: 80px;
   font-family: "Ubuntu", Arial, Helvetica, sans-serif;
-  width: 100%; }
+  width: 100vw; }
   .header .hamburger {
     display: none; }
   .header__logo {
@@ -119,12 +119,17 @@ a {
 
 .info-design {
   position: relative;
-  max-width: 100vw; }
+  width: 100vw;
+  z-index: 2; }
+  .info-design .wrap {
+    margin-left: 5rem; }
   .info-design .info-design--imgDesktop {
     position: absolute;
     top: 0;
     right: -5rem;
-    height: 50rem; }
+    height: 50rem;
+    z-index: -1;
+    overflow: hidden; }
     .info-design .info-design--imgDesktop img {
       height: 100%; }
   .info-design h3 {
@@ -132,9 +137,16 @@ a {
   .info-design .info-design--imgMobile {
     display: none; }
 
+/*
+@media (max-width: 1200px) {
+    .info-design{
+        .info-design--imgDesktop{
+            overflow: hidden;
+        }
+    }
+}
+*/
 @media (max-width: 770px) {
-  .container {
-    width: 95%; }
   .header {
     background-size: 380vw;
     background-position: center;
@@ -144,10 +156,18 @@ a {
     .header .hamburger {
       display: block; }
   .info-design {
-    text-align: center; }
+    text-align: center;
+    overflow-x: hidden; }
+    .info-design .wrap {
+      margin-left: 0;
+      width: 90%;
+      margin: auto;
+      overflow-x: hidden; }
     .info-design .info-design--imgDesktop {
       display: none; }
     .info-design .info-design--imgMobile {
       display: block; }
+      .info-design .info-design--imgMobile img {
+        width: 100%; }
     .info-design h3 {
       margin-bottom: 4rem; } }
