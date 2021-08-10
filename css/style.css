@@ -83,7 +83,8 @@ a {
   background-size: 140vw;
   background-position: left;
   border-bottom-left-radius: 80px;
-  font-family: "Ubuntu", Arial, Helvetica, sans-serif; }
+  font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+  width: 100vw; }
   .header .hamburger {
     display: none; }
   .header__logo {
@@ -140,7 +141,9 @@ a {
     background-size: 380vw;
     background-position: center;
     min-height: 35vh;
-    overflow: hidden; } }
+    overflow: hidden; }
+  .info-design {
+    overflow-x: hidden; } }
 
 @media (max-width: 770px) {
   .header {
