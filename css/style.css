@@ -165,12 +165,12 @@ a {
   .info-design {
     overflow: hidden; }
   .info-infrastructure {
-    overflow: hidden; }
+    width: 100vw; }
     .info-infrastructure .info-infrastructure-imgDesktop {
       left: 0; }
     .info-infrastructure .info-infrastructure-text {
       top: 10%;
-      right: -3%;
+      right: 0%;
       overflow: hidden; } }
 
 @media (max-width: 770px) {
