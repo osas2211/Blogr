@@ -171,6 +171,7 @@ a {
     .info-infrastructure .info-infrastructure-text {
       top: 10%;
       right: 0%;
+      padding-left: 6rem;
       overflow: hidden; } }
 
 @media (max-width: 770px) {
