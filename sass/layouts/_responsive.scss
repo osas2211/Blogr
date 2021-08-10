@@ -10,12 +10,15 @@
         overflow: hidden;
     }
     .info-infrastructure{
+        overflow: hidden;
         .info-infrastructure-imgDesktop{
             left: 0;
         }
         .info-infrastructure-text{
             top: 10%;
             right: -3%;
+            overflow: hidden;
+
         }
     }
 

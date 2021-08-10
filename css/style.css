@@ -164,11 +164,14 @@ a {
     overflow: hidden; }
   .info-design {
     overflow: hidden; }
-  .info-infrastructure .info-infrastructure-imgDesktop {
-    left: 0; }
-  .info-infrastructure .info-infrastructure-text {
-    top: 10%;
-    right: -3%; } }
+  .info-infrastructure {
+    overflow: hidden; }
+    .info-infrastructure .info-infrastructure-imgDesktop {
+      left: 0; }
+    .info-infrastructure .info-infrastructure-text {
+      top: 10%;
+      right: -3%;
+      overflow: hidden; } }
 
 @media (max-width: 770px) {
   .header {
