@@ -167,7 +167,8 @@ a {
   .info-infrastructure .info-infrastructure-imgDesktop {
     left: 0; }
   .info-infrastructure .info-infrastructure-text {
-    right: 0; } }
+    top: 10%;
+    right: -3%; } }
 
 @media (max-width: 770px) {
   .header {
