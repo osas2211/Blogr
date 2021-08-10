@@ -12,13 +12,7 @@
     }
     .info-infrastructure{
         .info-infrastructure--imgDesktop{
-            left: 0;
-        }
-        .info-infrastructure-text{
-            top: 10%;
-            right: 0%;
-            padding-left: 6rem;
-            padding-right: 3rem;
+            width: 50%;
         }
     }
 
@@ -62,26 +56,18 @@
 
     .info-infrastructure{
         padding: 0;
-        margin-top: -2rem;
+        
         text-align: center;
-        border-bottom-left-radius: 5rem;
         
         .info-infrastructure--imgDesktop{
-            position: relative;
-            margin-top: -10rem;
-            
-            img{
-                width: 100%;
-                height: 100%;
-                
-            }
+            width: 100%;
+            margin-top: -12rem;
+            margin-bottom: 0;
+            overflow: hidden;
         }
         .info-infrastructure-text{
-            position: relative;
-            margin-top: -4rem;
-            padding-left: 2rem;
-            padding-right: 2rem;
-            
+            overflow: hidden;
+            margin-top: 4rem;
         }
     }
     

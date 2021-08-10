@@ -33,24 +33,23 @@
 
 .info-infrastructure{
     background-color: $very-dark-desaturated-blue;
-    padding: 12rem 0rem 12rem 0rem;
-    position: relative;
-    width: 100vw;
-    
+    padding: 3rem 6rem 0rem 2rem;
     margin-bottom: 2rem;
     border: none;
     border-bottom-left-radius: 7rem;
     border-top-right-radius: 7rem;
     .info-infrastructure--imgDesktop{
-        position: absolute;
-        top: -3rem;
-        left: 3%;
+        margin-top: -8rem;
+        margin-bottom: -7rem;
+        width: 50%;
+        height: 35rem;
+        img{
+            width: 100%;
+            height: 100%;
+        }
     }
     .info-infrastructure-text{
-        position: absolute;
-        top: 20%;
-        right: 5%;
-        padding: 4rem;
+        padding: 4rem 2rem 4rem 2rem;
     }
 
 }
