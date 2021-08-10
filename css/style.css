@@ -124,6 +124,8 @@ a {
   margin-bottom: 6rem; }
   .info-design .wrap {
     margin-left: 5rem; }
+  .info-design .info-design-text {
+    padding-right: 2rem; }
   .info-design .info-design--imgDesktop {
     position: absolute;
     top: 0;
@@ -184,6 +186,8 @@ a {
       width: 90%;
       margin: auto;
       overflow-x: hidden; }
+    .info-design .info-design-text {
+      padding-right: 0rem; }
     .info-design .info-design--imgDesktop {
       display: none;
       overflow: hidden; }
@@ -202,4 +206,4 @@ a {
       margin-top: -10rem;
       height: 25rem; }
     .info-infrastructure .info-infrastructure-text {
-      margin-top: 2rem; } }
+      margin-top: 4rem; } }
