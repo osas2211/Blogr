@@ -140,9 +140,11 @@ a {
 
 .info-infrastructure {
   background-color: #3f4164;
+  box-sizing: border-box;
   padding: 3rem 6rem 0rem 2rem;
   margin-bottom: 2rem;
   border: none;
+  max-width: 100vw;
   border-bottom-left-radius: 7rem;
   border-top-right-radius: 7rem; }
   .info-infrastructure .info-infrastructure--imgDesktop {
@@ -160,8 +162,7 @@ a {
   .header {
     background-size: 380vw;
     background-position: center;
-    min-height: 30vh;
-    overflow: hidden; }
+    min-height: 30vh; }
   .info-design {
     overflow: hidden;
     margin-bottom: 6rem; }
@@ -177,16 +178,18 @@ a {
       display: block; }
   .info-design {
     text-align: center;
-    overflow-x: hidden; }
+    width: 100vw; }
     .info-design .wrap {
       margin-left: 0;
       width: 90%;
       margin: auto;
       overflow-x: hidden; }
     .info-design .info-design--imgDesktop {
-      display: none; }
+      display: none;
+      overflow: hidden; }
     .info-design .info-design--imgMobile {
-      display: block; }
+      display: block;
+      overflow: hidden; }
       .info-design .info-design--imgMobile img {
         width: 100%; }
     .info-design h3 {
@@ -196,9 +199,7 @@ a {
     text-align: center; }
     .info-infrastructure .info-infrastructure--imgDesktop {
       width: 100%;
-      margin-top: -12rem;
-      margin-bottom: 0;
-      overflow: hidden; }
+      margin-top: -10rem;
+      height: 25rem; }
     .info-infrastructure .info-infrastructure-text {
-      overflow: hidden;
-      margin-top: 4rem; } }
+      margin-top: 2rem; } }

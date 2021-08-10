@@ -4,7 +4,7 @@
         background-size: 380vw;
         background-position: center;
         min-height: 30vh;
-        overflow: hidden;
+        
     }
     .info-design{
         overflow: hidden;
@@ -32,7 +32,8 @@
     }
     .info-design{
         text-align: center;
-        overflow-x: hidden;
+        width: 100vw;
+        
         .wrap{
             margin-left: 0;
             width: 90%;
@@ -41,9 +42,12 @@
         }
         .info-design--imgDesktop{
             display: none;
+            overflow: hidden;
         }
         .info-design--imgMobile{
             display: block;
+            overflow: hidden;
+            
             img{
                 width: 100%;
             }
@@ -61,13 +65,11 @@
         
         .info-infrastructure--imgDesktop{
             width: 100%;
-            margin-top: -12rem;
-            margin-bottom: 0;
-            overflow: hidden;
+            margin-top: -10rem;
+            height: 25rem;
         }
         .info-infrastructure-text{
-            overflow: hidden;
-            margin-top: 4rem;
+            margin-top: 2rem;
         }
     }
     
