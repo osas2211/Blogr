@@ -136,7 +136,7 @@ a {
   .info-design .info-design--imgMobile {
     display: none; }
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
   .header {
     background-size: 380vw;
     background-position: center;
