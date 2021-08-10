@@ -142,6 +142,7 @@ a {
   background-color: #3f4164;
   padding: 12rem 0rem 12rem 0rem;
   position: relative;
+  width: 100vw;
   margin-bottom: 2rem;
   border: none;
   border-bottom-left-radius: 7rem;
@@ -173,8 +174,7 @@ a {
       top: 10%;
       right: 0%;
       padding-left: 6rem;
-      padding-right: 3rem;
-      overflow: hidden; } }
+      padding-right: 3rem; } }
 
 @media (max-width: 770px) {
   .header {
@@ -201,7 +201,9 @@ a {
       margin-bottom: 4rem; }
   .info-infrastructure {
     padding: 6rem 0rem 6rem 0rem;
-    margin-top: -2rem; }
+    margin-top: -2rem;
+    width: 100vw;
+    text-align: center; }
     .info-infrastructure .info-infrastructure--imgDesktop {
       position: relative;
       margin-top: -10rem; }
@@ -210,6 +212,5 @@ a {
         height: 100%; }
     .info-infrastructure .info-infrastructure-text {
       position: relative;
-      text-align: center;
       margin-top: -2rem;
       padding: 1rem; } }

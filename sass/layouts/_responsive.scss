@@ -20,8 +20,6 @@
             right: 0%;
             padding-left: 6rem;
             padding-right: 3rem;
-            overflow: hidden;
-
         }
     }
 
@@ -66,6 +64,8 @@
     .info-infrastructure{
         padding: 6rem 0rem 6rem 0rem;
         margin-top: -2rem;
+        width: 100vw;
+        text-align: center;
         
         .info-infrastructure--imgDesktop{
             position: relative;
@@ -77,7 +77,7 @@
         }
         .info-infrastructure-text{
             position: relative;
-            text-align: center;
+            
             margin-top: -2rem;
             padding: 1rem;
         }
