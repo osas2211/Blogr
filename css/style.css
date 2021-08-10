@@ -136,11 +136,11 @@ a {
   .info-design .info-design--imgMobile {
     display: none; }
 
-@media (max-width: 1200px) {
+@media (max-width: 900px) {
   .header {
     background-size: 380vw;
     background-position: center;
-    min-height: 75vh; }
+    min-height: 40vh; }
   .info-design {
     text-align: center;
     overflow-x: hidden; }
@@ -159,9 +159,11 @@ a {
       margin-bottom: 4rem; } }
 
 @media (max-width: 600px) {
-  .header__nav--list, .header .user {
-    display: none; }
-  .header .hamburger {
-    display: block; }
+  .header {
+    min-height: 75vh; }
+    .header__nav--list, .header .user {
+      display: none; }
+    .header .hamburger {
+      display: block; }
   .wrap {
     width: 95%; } }
