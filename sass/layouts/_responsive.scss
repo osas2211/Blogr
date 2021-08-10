@@ -1,9 +1,10 @@
 
-@media (max-width: 1200px) {
+@media (max-width: 1030px) {
     .header{
         background-size: 380vw;
         background-position: center;
         min-height: 40vh;
+        overflow: hidden;
     }
 
     .info-design{

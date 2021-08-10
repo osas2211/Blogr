@@ -1,7 +1,6 @@
 .info-design{
     position: relative;
     width: 100vw;
-    z-index: 2;
     
     .wrap{
         margin-left: 5rem;
@@ -10,9 +9,9 @@
     .info-design--imgDesktop{
         position: absolute;
         top: 0;
-        right: -5rem;
+        left: 55%;
+        right: 0;
         height: 50rem;
-        z-index: -1;
         overflow: hidden;    
         img{
             height: 100%;

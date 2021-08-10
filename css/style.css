@@ -118,16 +118,15 @@ a {
 
 .info-design {
   position: relative;
-  width: 100vw;
-  z-index: 2; }
+  width: 100vw; }
   .info-design .wrap {
     margin-left: 5rem; }
   .info-design .info-design--imgDesktop {
     position: absolute;
     top: 0;
-    right: -5rem;
+    left: 55%;
+    right: 0;
     height: 50rem;
-    z-index: -1;
     overflow: hidden; }
     .info-design .info-design--imgDesktop img {
       height: 100%; }
@@ -136,11 +135,12 @@ a {
   .info-design .info-design--imgMobile {
     display: none; }
 
-@media (max-width: 1200px) {
+@media (max-width: 1030px) {
   .header {
     background-size: 380vw;
     background-position: center;
-    min-height: 40vh; }
+    min-height: 40vh;
+    overflow: hidden; }
   .info-design {
     text-align: center;
     overflow-x: hidden; }
