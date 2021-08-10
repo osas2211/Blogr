@@ -2,6 +2,7 @@
     position: relative;
     width: 100vw;
     padding-bottom: 12rem;
+    margin-bottom: 6rem;
     
     .wrap{
         margin-left: 5rem;
@@ -26,6 +27,29 @@
 
     .info-design--imgMobile{
         display: none;
+    }
+
+}
+
+.info-infrastructure{
+    background-color: $very-dark-desaturated-blue;
+    padding: 12rem 0rem 12rem 0rem;
+    position: relative;
+    
+    margin-bottom: 2rem;
+    border: none;
+    border-bottom-left-radius: 7rem;
+    border-top-right-radius: 7rem;
+    .info-infrastructure--imgDesktop{
+        position: absolute;
+        top: -3rem;
+        left: 3%;
+    }
+    .info-infrastructure-text{
+        position: absolute;
+        top: 20%;
+        right: 5%;
+        padding: 4rem;
     }
 
 }
