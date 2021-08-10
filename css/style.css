@@ -165,7 +165,7 @@ a {
     overflow: hidden; }
   .info-design {
     overflow: hidden;
-    margin-bottom: 4rem; }
+    margin-bottom: 6rem; }
   .info-infrastructure .info-infrastructure--imgDesktop {
     left: 0; }
   .info-infrastructure .info-infrastructure-text {
@@ -210,6 +210,6 @@ a {
         height: 100%; }
     .info-infrastructure .info-infrastructure-text {
       position: relative;
-      margin-top: -2rem;
+      margin-top: -4rem;
       padding-left: 2rem;
-      padding-right: 3rem; } }
+      padding-right: 2rem; } }
