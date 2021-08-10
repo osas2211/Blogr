@@ -166,15 +166,13 @@ a {
   .info-design {
     overflow: hidden;
     margin-bottom: 4rem; }
-  .info-infrastructure {
-    width: 100vw; }
-    .info-infrastructure .info-infrastructure--imgDesktop {
-      left: 0; }
-    .info-infrastructure .info-infrastructure-text {
-      top: 10%;
-      right: 0%;
-      padding-left: 6rem;
-      padding-right: 3rem; } }
+  .info-infrastructure .info-infrastructure--imgDesktop {
+    left: 0; }
+  .info-infrastructure .info-infrastructure-text {
+    top: 10%;
+    right: 0%;
+    padding-left: 6rem;
+    padding-right: 3rem; } }
 
 @media (max-width: 770px) {
   .header {
@@ -200,10 +198,10 @@ a {
     .info-design h3 {
       margin-bottom: 4rem; }
   .info-infrastructure {
-    padding: 6rem 0rem 6rem 0rem;
+    padding: 0;
     margin-top: -2rem;
-    width: 100vw;
-    text-align: center; }
+    text-align: center;
+    border-bottom-left-radius: 5rem; }
     .info-infrastructure .info-infrastructure--imgDesktop {
       position: relative;
       margin-top: -10rem; }
@@ -213,4 +211,5 @@ a {
     .info-infrastructure .info-infrastructure-text {
       position: relative;
       margin-top: -2rem;
-      padding: 1rem; } }
+      padding-left: 2rem;
+      padding-right: 3rem; } }
