@@ -14,6 +14,8 @@
         padding: 1rem 0rem 0rem 0rem;
         height: 18rem;
         margin-bottom: 1rem;
+        border-bottom-left-radius: 4rem;
+        border-top-right-radius: 4rem;
         .info-infrastructure--imgDesktop{
             width: 50%;
             height: 25rem;
@@ -120,6 +122,13 @@
         .info-tool-text{
             margin-top: 6rem;
             margin-left: 0;
+        }
+    }
+
+    .footer{
+        text-align: center;
+        p{
+            margin-top: 3rem;
         }
     }
     
