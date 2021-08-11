@@ -47,6 +47,9 @@
 
 
 @media (max-width: 770px) {
+    .mobile{
+        display: block;
+    }
     .header{
         min-height: 75vh;
         &__nav--list, .user{

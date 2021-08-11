@@ -1,0 +1,98 @@
+.close-nav{
+    width: 0;
+    transition: 1s;
+}
+.open-nav{
+    width: auto;
+    transition: 1s;
+}
+#scale{
+    transform: scaleY(1) translateX(-50%);
+}
+#unscale{
+    transform: scaleY(0) translateX(-50%);
+}
+.mobile-nav{
+    position: absolute;
+    z-index: 2;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: $white;
+    border-radius: 10px;
+    width: 95%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    padding: 2rem;
+    transition: .5s;
+    box-shadow: 1px 8px 20px rgb(163, 158, 158);
+
+    li.nav-item-2{
+        display: block;
+        margin: 1rem;
+        transition: all .5s;
+        & > a::after{
+            content: ">";
+            transform: rotate(90deg);
+            display: inline-block;
+            margin-left: 0.4rem;
+            transition: .3s;
+            color: $light-red;
+        }
+        a{
+            color: $very-dark-blue;
+        }
+        &:hover > a{
+            text-decoration:underline;
+        }
+        a:hover::after{
+            transform: rotate(270deg);
+        }    
+    }
+
+    .connect-2{
+        transition: all .5s;
+        &:hover ul{
+            display: block;
+        }
+        ul{
+            display: none;
+            @include reset-list;
+            margin-top: 2rem;
+            background: rgb(219, 212, 212);
+            border-radius: 10px;
+            padding: 2rem;
+            transition: all .5s;
+            li:not(:last-child){
+                padding-bottom: 1rem;
+            }
+            li a{
+                opacity: 0.9;
+            }
+        }
+    }
+    
+    .btn-secondary{
+        color: $light-red;
+        margin-bottom: 1rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        &:hover{
+            color: $white;
+            background: linear-gradient(to right, $very-light-red-b, $light-red-b);
+        }
+    }
+    .sign-in{
+        background: linear-gradient(to right, $very-light-red-b, $light-red-b);
+        color: $white;
+        padding-left: 3rem;
+        padding-right: 3rem;
+  
+    }        
+
+}
+
+
+
