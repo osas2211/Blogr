@@ -21,7 +21,7 @@
             margin-bottom: -14rem;
         }
         .info-infrastructure-text{
-            margin-top: -2rem;
+            margin-top: -1rem;
             padding: 2rem 0rem 4rem 2rem;
         }
     }
@@ -32,7 +32,7 @@
         padding-left: 0;
         .info-tool-imgDesktop{
             width: 45rem;
-            margin-left: -17rem;
+            margin-left: -28.5rem;
         }
         .info-tool-text{
             margin-left: -1.2rem;
@@ -86,9 +86,10 @@
     }
 
     .info-infrastructure{
-        padding: 0;
+        padding: 0 0 3rem 0;
         height: auto;
         text-align: center;
+        
         
         .info-infrastructure--imgDesktop{
             width: 100%;
@@ -96,7 +97,8 @@
             height: 25rem;
         }
         .info-infrastructure-text{
-            margin-top: 14rem;
+            margin-top: 16rem;
+            padding: 1rem;
         }
     }
     .info-tool{
