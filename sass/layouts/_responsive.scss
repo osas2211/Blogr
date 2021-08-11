@@ -8,17 +8,34 @@
     }
     .info-design{
         overflow: hidden;
-        margin-bottom: 5rem;
+        margin-bottom: 3rem;
     }
     .info-infrastructure{
+        padding: 1rem 0rem 0rem 0rem;
+        height: 18rem;
+        margin-bottom: 1rem;
         .info-infrastructure--imgDesktop{
             width: 50%;
+            height: 25rem;
+            margin-top: -4rem;
+            margin-bottom: -14rem;
+        }
+        .info-infrastructure-text{
+            margin-top: -2rem;
+            padding: 2rem 0rem 4rem 2rem;
         }
     }
     .info-tool{
+        .container{
+            margin-right: 0;
+        }
+        padding-left: 0;
         .info-tool-imgDesktop{
             width: 45rem;
-            margin-left: -25rem;
+            margin-left: -17rem;
+        }
+        .info-tool-text{
+            margin-left: -1.2rem;
         }
         
     }
@@ -70,7 +87,7 @@
 
     .info-infrastructure{
         padding: 0;
-        
+        height: auto;
         text-align: center;
         
         .info-infrastructure--imgDesktop{
@@ -79,10 +96,13 @@
             height: 25rem;
         }
         .info-infrastructure-text{
-            margin-top: 4rem;
+            margin-top: 14rem;
         }
     }
     .info-tool{
+        .container{
+            margin-right: auto;
+        }
         text-align: center;
         .info-tool-imgMobile{
             display: block;
@@ -96,6 +116,7 @@
         }
         .info-tool-text{
             margin-top: 6rem;
+            margin-left: 0;
         }
     }
     
