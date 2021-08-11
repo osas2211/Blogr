@@ -164,7 +164,7 @@ a {
     padding: 4rem 2rem 4rem 2rem; }
 
 .info-tool {
-  margin-top: -4rem;
+  margin-top: -1rem;
   padding: 8rem 0 8rem 0; }
   .info-tool .info-tool-imgMobile {
     display: none; }
@@ -203,9 +203,10 @@ a {
       margin-right: 0; }
     .info-tool .info-tool-imgDesktop {
       width: 45rem;
-      margin-left: -28.5rem; }
+      margin-left: -29rem; }
     .info-tool .info-tool-text {
-      margin-left: -1.2rem; } }
+      margin-left: 1.7rem;
+      margin-top: 8%; } }
 
 @media (max-width: 770px) {
   .header {
